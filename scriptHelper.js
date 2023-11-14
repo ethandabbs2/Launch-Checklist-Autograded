@@ -51,7 +51,7 @@ function addDestinationInfo(document, name, diameter, star, distance, moons, ima
     copilotStatus.innerHTML = `Co-pilot ${copilot} is ready for launch`;
     
     if (fuelLevel >= 10000 && cargoLevel <= 10000) {
-        list.style.visibility = "visible";
+        list.style.visibility = "invisible";
         launchStatusDiv.style.color = 'green';
         fuelStatus.innerHTML = "Fuel level high enough for launch";
         cargoStatus.innerHTML = "Cargo mass low enough for launch";
